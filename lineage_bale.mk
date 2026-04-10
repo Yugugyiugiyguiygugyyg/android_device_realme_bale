@@ -29,3 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX3852 \
     SystemDevice=RE5C46L1 \
     SystemName=RMX3852
+
+# GAPPS
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+WITH_GMS := true
