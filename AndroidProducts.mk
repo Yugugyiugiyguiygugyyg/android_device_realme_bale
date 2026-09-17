@@ -6,3 +6,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_bale.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_bale-cp2a-user \
+    lineage_bale-cp2a-userdebug
